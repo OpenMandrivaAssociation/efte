@@ -8,7 +8,7 @@ Source0:	https://github.com/lanurmi/efte/archive/master.tar.gz
 License:	GPL
 Group:		Editors
 URL:		http://github.com/lanurmi/efte/
-BuildRequires:	libgpm-devel
+BuildRequires:	gpm-devel
 BuildRequires:	pkgconfig(ncurses)
 BuildRequires:	pkgconfig(slang)
 BuildRequires:	pkgconfig(x11)
