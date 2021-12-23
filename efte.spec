@@ -1,10 +1,10 @@
-%define snap 20190905
+#%%define snap 20190905
 
 Summary:	Easy to use text mode editor
 Name:		efte
-Version:	1.1.1
-Release:	0.%{snap}.1
-Source0:	https://github.com/lanurmi/efte/archive/master.tar.gz
+Version:	1.1
+Release:	1
+Source0:	https://github.com/lanurmi/efte/archive/refs/tags/efte-efte-%{version}.tar.gz
 License:	GPL
 Group:		Editors
 URL:		http://github.com/lanurmi/efte/
@@ -33,7 +33,7 @@ Requires:	%{name} = %{EVRD}
 X11 version of the eFTE editor
 
 %prep
-%autosetup -p1 -n efte-master
+%autosetup -p1 -n efte-efte-%{version}
 %cmake \
 	-G Ninja
 
