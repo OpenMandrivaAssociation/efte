@@ -3,7 +3,7 @@
 Summary:	Easy to use text mode editor
 Name:		efte
 Version:	1.1
-Release:	1
+Release:	2
 Source0:	https://github.com/lanurmi/efte/archive/refs/tags/efte-efte-%{version}.tar.gz
 License:	GPL
 Group:		Editors
@@ -14,6 +14,7 @@ BuildRequires:	pkgconfig(slang)
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xpm)
 BuildRequires:	cmake ninja
+Provides:	texteditor
 %rename fte
 
 %description
