@@ -3,7 +3,7 @@
 Summary:	Easy to use text mode editor
 Name:		efte
 Version:	1.1
-Release:	2
+Release:	3
 Source0:	https://github.com/lanurmi/efte/archive/refs/tags/efte-efte-%{version}.tar.gz
 License:	GPL
 Group:		Editors
