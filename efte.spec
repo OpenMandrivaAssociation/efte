@@ -7,7 +7,7 @@ Release:	3
 Source0:	https://github.com/lanurmi/efte/archive/refs/tags/efte-efte-%{version}.tar.gz
 License:	GPL
 Group:		Editors
-URL:		http://github.com/lanurmi/efte/
+URL:		https://github.com/lanurmi/efte/
 BuildRequires:	gpm-devel
 BuildRequires:	pkgconfig(ncurses)
 BuildRequires:	pkgconfig(slang)
